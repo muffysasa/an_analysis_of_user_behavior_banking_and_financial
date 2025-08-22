@@ -20,6 +20,8 @@ Berdasarkan data yang didapatkan meliputi demografi nasabah, informasi kartu nas
 
 ## 3. Data Understanding
 Data publik bersumber link   [![](https://img.icons8.com/?size=20&id=12312&format=png&color=000000)](https://drive.google.com/drive/folders/14U87BRaPXvv-l9E7dysGqY0VjVv4lxKP)
+
+1. Data users_data
 |Kolom|Deskripsi|
 |--|----------|
  id| →  kode unik representasi nasabah
