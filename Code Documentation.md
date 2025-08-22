@@ -20,50 +20,57 @@ Berdasarkan data yang didapatkan meliputi demografi nasabah, informasi kartu nas
 
 ## 3. Data Understanding
 Data publik bersumber link   [![](https://img.icons8.com/?size=20&id=12312&format=png&color=000000)](https://drive.google.com/drive/folders/14U87BRaPXvv-l9E7dysGqY0VjVv4lxKP)
-1. Data users_data
- id→  kode unik representasi nasabah
- current_age→  umur nasabah
- retirement_age→ usia pensiun nasabah
- birth_year→ tahun kelahiran nasabah  
- birth_month→ bulan kelahiran nasabah
- gender→  jenis kelamin nasabah
- address→  alamat nasabah
- latitude→  koordinat lat alamat nasabah
- longitude→ koordinat long alamat nasabah
- per_capita_income→ penghasilan perkapita sesuai kiteria nasabah
- yearly_income→ enghasilan pertahun
- total_debt→ umlah tagihan hutang
- credit_score→ kor kredit, menunjukan skala skor kredit nasabah dari lembaga penilaian kuangan  
- num_credit_cards→ jumlah kartu kredit aktif yang benar-benar sedang digunakan oleh nasabah
+|Kolom|Deskripsi|
+|--|----------|
+ id| →  kode unik representasi nasabah
+ current_age|→  umur nasabah
+ retirement_age|→ usia pensiun nasabah
+ birth_year|→ tahun kelahiran nasabah  
+ birth_month|→ bulan kelahiran nasabah
+ gender|→  jenis kelamin nasabah
+ address|→  alamat nasabah
+ latitude|→  koordinat lat alamat nasabah
+ longitude|→ koordinat long alamat nasabah
+ per_capita_income|→ penghasilan perkapita sesuai kiteria nasabah
+ yearly_income|→ enghasilan pertahun
+ total_debt|→ umlah tagihan hutang
+ credit_score|→ kor kredit, menunjukan skala skor kredit nasabah dari lembaga penilaian kuangan  
+ num_credit_cards|→ jumlah kartu kredit aktif yang benar-benar sedang digunakan oleh nasabah
 
 2. Data cards_data
-id → Primary key unik tiap baris data.
-client_id → ID unik untuk nasabah/pemilik kartu.
-card_brand → Merek kartu (misal: Visa, MasterCard, Amex).
-card_type → Jenis kartu (misal: Debit, Credit, Prepaid).
-card_number → Nomor kartu (biasanya 16 digit).
-expires → Tanggal kadaluarsa kartu (format MM/YY).
-cvv → Kode keamanan (3 atau 4 digit di belakang kartu).
-has_chip → Apakah kartu punya chip (Yes/No atau 1/0).
-num_cards_issued → Jumlah kartu yang pernah diterbitkan untuk nasabah ini.
-credit_limit → Limit kredit maksimal yang diberikan.
-acct_open_date → Tanggal pembukaan akun / kartu pertama kali aktif.
-year_pin_last_changed → Tahun terakhir nasabah mengganti PIN.
-card_on_dark_web → Indikator apakah kartu ditemukan di “dark web” (misal: 1 = iya, 0 = tidak)
+
+|Kolom|Deskripsi|
+|--|----------|
+id| → Primary key unik tiap baris data.
+client_id| → ID unik untuk nasabah/pemilik kartu.
+card_brand| → Merek kartu (misal: Visa, MasterCard, Amex).
+card_type| → Jenis kartu (misal: Debit, Credit, Prepaid).
+card_number| → Nomor kartu (biasanya 16 digit).
+expires| → Tanggal kadaluarsa kartu (format MM/YY).
+cvv| → Kode keamanan (3 atau 4 digit di belakang kartu).
+has_chip| → Apakah kartu punya chip (Yes/No atau 1/0).
+num_cards_issued| → Jumlah kartu yang pernah diterbitkan untuk nasabah ini.
+credit_limit| → Limit kredit maksimal yang diberikan.
+acct_open_date| → Tanggal pembukaan akun / kartu pertama kali aktif.
+year_pin_last_changed| → Tahun terakhir nasabah mengganti PIN.
+card_on_dark_web| → Indikator apakah kartu ditemukan di “dark web” (misal: 1 = iya, 0 = tidak)
 
 3. Data transaksional_data --> akan menggunakan range date 3 tahun terakhir 2019 s/d 2017
-id → Primary key unik untuk tiap transaksi.
-datetime → Waktu transaksi terjadi (tanggal & jam).
-client_id → ID nasabah/pemilik kartu.
-card_id → ID kartu yang digunakan (relasi ke tabel kartu).
-amount → Nominal transaksi (misalnya dalam USD).
-use_chip → Jenis chip kartu transaksi dilakukan dengan chip (
-merchant_id → ID unik merchant (toko / penyedia layanan).
-merchant_city → Kota tempat merchant berada.
-merchant_state → Negara bagian / provinsi merchant.
-zip → Kode pos merchant.
-mcc → Merchant Category Code (kode industri merchant, misalnya restoran, retail, travel).
-errors → Indikator adanya error saat transaksi (misalnya gagal otorisasi, declined, dsb).
+
+|Kolom|Deskripsi|
+|--|----------|
+id| → Primary key unik untuk tiap transaksi.
+datetime| → Waktu transaksi terjadi (tanggal & jam).
+client_id| → ID nasabah/pemilik kartu.
+card_id| → ID kartu yang digunakan (relasi ke tabel kartu).
+amount| → Nominal transaksi (misalnya dalam USD).
+use_chip| → Jenis chip kartu transaksi dilakukan dengan chip (
+merchant_id| → ID unik merchant (toko / penyedia layanan).
+merchant_city| → Kota tempat merchant berada.
+merchant_state| → Negara bagian / provinsi merchant.
+zip| → Kode pos merchant.
+mcc| → Merchant Category Code (kode industri merchant, misalnya restoran, retail, travel).
+errors| → Indikator adanya error saat transaksi (misalnya gagal otorisasi, declined, dsb).
 
 
 
