@@ -1,6 +1,9 @@
 # Analisis dan Perilaku Nasabah Pada Sektor Financial dan Banking 
 _Makrufiah Sakatri_
 
+![Image](./img/Businessman%20pushing%20credit%20score%20speedometer%20from%20poor%20to%20good.jpg)
+*all source pictures here from [Freepik](https://www.freepik.com/)*
+
 Dashboard Visualisasi [![](https://img.icons8.com/?size=30&id=SruJhzn0nnLl&format=png&color=000000)](https://lookerstudio.google.com/reporting/a71b18bc-15f2-4d31-8a1e-612864d6187b)
 ## 1. Domain Project
 Bank adalah lembaga keuangan yang menyediakan layanan penyimpanan uang, pemberian pinjaman, serta penerbitan tagihan serta pencatatan transaksi nasabah.
