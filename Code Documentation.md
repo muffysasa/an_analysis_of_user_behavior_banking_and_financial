@@ -291,10 +291,15 @@ ORDER BY jumlah_orang DESC
 Berdasarkan data sumber yang didapatkan beserta goals probelm statement yang dirumuskan sebagai berikut
 
 1. Berapa jumlah nasabah yang terdaftar berdasarkan umur dan presentase para nasabah secara skala credit score?
+
 -->Jumlah Nasabah terdaftar adalah 2000 Nasabah, para nasabah memiliki skor kredit yang baik mencapai 46.6% dan resentase para nasabah yang memiliki skor kredit buruk sebesar 4%. Dapat disimpulkan reputasi bank terhadap kredit skor para nasabah mendominasi kredit skor baik serta produk pinjaman atau pengelolaan keuangan yang mampu mendorong para nasabah untuk terjadi gagal bayar
+
 2. Bagaimana perilaku para nasabah terhadap awareness keamanan data bank dengan penggantian password kartu bank?
+
 --> Jumlah kartu nasabah yang melakukan pergantian password dibawah 1 tahun (gap_year=0) masih mendominasi sebesar 3.247 kartu nasabah dibandingkan kartu nasabah yang melakukan pergantian password lebih 1 tahun. Dapat disimpulkan para nasabah memiliki awareness terhadap penggantian password kartu bank untuk menghindari kejahatan bank secara digital
+
 3. Bagaimana perilaku para nasabah terhadap kemudahan produk transaksional bank terhadap aktivitas transaksi para nasabah pada rentang 2018-2019?
+
 -->Berdasarkan jenis kartu, penggunaan chip transaction saat transaksi menunjukkan jumlah tertinggi mencapai 71%. Dapat disimpulkan para Nasabah Bank MandiriSekuritas memiliki kenyamanan dalam bertransaksi menggunakan Chip Transaction
 Jumlah transaksi para nasabah tanpa kendala sebanyak masih mendominasi sebanyak 1.374.508 aktivitas. Sedangkan aktivitas transaksi disebabkan beragam kendala sebanyak 22.346 merepresentasikan 1.61% jumlah kendala dengan keseluruhan aktivitas transaksi . Kendala yang paling terjadi saat nasabah transaksi adalah 'Insufficient Balance’, ‘Bad Pin’ serta ‘Technical Glitch’. Dimana kemungkinan sering terjadi karena kendala nasabah tidak memiliki saldo dan kesalahan PIN kartu
 
