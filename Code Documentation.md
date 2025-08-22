@@ -1,5 +1,5 @@
 # Analisis dan Perilaku Nasabah Pada Sektor Financial dan Banking 
-Makrufiah Sakatri
+_Makrufiah Sakatri_
 
 Dashboard Visualisasi [![](https://img.icons8.com/?size=30&id=SruJhzn0nnLl&format=png&color=000000)](https://lookerstudio.google.com/reporting/a71b18bc-15f2-4d31-8a1e-612864d6187b)
 ## 1. Domain Project
